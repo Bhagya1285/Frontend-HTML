@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <table>
+        <form>
+
+        <tr>
+            <td>
+            <label> FullName</label></td>
+            <td><input>(max 20 char a-z and A-Z)</td>
+         </tr>   
+        <tr>
+            <td><label>Lastname</label></td>
+            <td><input>(max 20 char a-z and A-Z)</td>
+        </tr> 
+        <tr>
+            <td><label>Date of Birth</label></td>
+            <td><input type="Date"></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+            <td>
+                <input type="radio" name="gender" id="gender">male
+                <input type="radio" name="gender" id="gender">female
+            </td>
+        </tr>
+        <tr>
+            <td><label>EMAIL ID</label></td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td><label>Mobile No</label></td>
+            <td><input type="tel"></td>
+        </tr>
+        <tr>
+            <td><label>ADDRESS</label>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td><label>CITY</label></td>
+            <td><input></td>
+        </tr>
+        <tr>
+            <td><label>PINCODE</label></td>
+            <td><input type="number" maxlength="6" required></td>
+        </tr>
+        <tr>
+            <td><label>EMAIL ID</label></td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td><label>STATE</label></td>
+            <td><input></td>
+        </tr>
+        <tr>
+            <td><label>COUNTRY</label></td>
+            <td><input></td>
+        </tr>
+        <tr>
+            <td align="center">HOBBIES</td>
+            <td>
+            <input type="checkbox" name="hobbies" id="hobbies">Drawing
+            <input type="checkbox" name="hobbies" id="hobbies">Singing
+            <input type="checkbox" name="hobbies" id="hobbies">Dancing
+            <br>
+            <label>Other</label>
+            <input type="text" name="hobbies" id="other">
+            </td>
+        </tr>  
+        <tr>
+        <td align="center"><label>Qualification</label></td>
+        <td>
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr align="center">
+                <th><font size="2">sl.no</font></th>
+                <th><font size="2">Examination</font></th>
+                <th><font size="2">Board</font></th>
+                <th><font size="2">Percentage</font></th>
+                <th><font size="2">Year of pass</font></th>
+            </tr>  
+            <tr>
+                            <td>01</td>
+                            <td><input type="text" size="12" name="exam_01"></td>
+                            <td><input type="text" size="12" name="board_01"></td>
+                            <td><input type="text" size="12" name="percentage_01"></td>
+                            <td><input type="text" size="12" name="year_01"></td>
+                        </tr>
+                        <!-- Row 02 -->
+                        <tr>
+                            <td>02</td>
+                            <td><input type="text" size="12" name="exam_02"></td>
+                            <td><input type="text" size="12" name="board_02"></td>
+                            <td><input type="text" size="12" name="percentage_02"></td>
+                            <td><input type="text" size="12" name="year_02"></td>
+                        </tr>
+                        <!-- Row 03 -->
+                        <tr>
+                            <td>03</td>
+                            <td><input type="text" size="12" name="exam_03"></td>
+                            <td><input type="text" size="12" name="board_03"></td>
+                            <td><input type="text" size="12" name="percentage_03"></td>
+                            <td><input type="text" size="12" name="year_03"></td>
+                        </tr>
+                        <!-- Row 04 -->
+                        <tr>
+                            <td>04</td>
+                            <td><input type="text" size="12" name="exam_04"></td>
+                            <td><input type="text" size="12" name="board_04"></td>
+                            <td><input type="text" size="12" name="percentage_04"></td>
+                            <td><input type="text" size="12" name="year_04"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- COURSES APPLIED FOR -->
+            <tr>
+                <td><label>COURSES<br>APPLIED<br>FOR</label></td>
+                <td>
+                    <input type="checkbox" id="bca" name="course">
+                    <label >BCA</label>
+                    <input type="checkbox" id="bcom" name="course" >
+                    <label >B.com</label>
+                    <input type="checkbox" id="bsc" name="course" >
+                    <label >B.sc</label>
+                    <input type="checkbox" id="ba" name="course" >
+                    <label >B.A</label>
+                </td>
+            </tr> 
+        </td>     
+         <tr>
+                <td></td>
+                <td align="center">
+                    <br>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+        </tr>
+
+        </form>
+         
+    </table>  
+</body>
+</html>
